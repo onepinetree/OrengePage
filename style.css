@@ -26,7 +26,7 @@ body, html {
 .text-above-buttons {
     color: #ffffff;
     text-align: center;
-    font-size: 2rem; /* 상대적 크기로 변경 */
+    font-size: 1.7rem; /* 상대적 크기로 변경 */
     width: 100%;
     font-family: 'IBM Plex Sans KR', sans-serif;
     font-weight: 500;
