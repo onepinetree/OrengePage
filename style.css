@@ -26,7 +26,7 @@ body, html {
 .text-above-buttons {
     color: #ffffff;
     text-align: center;
-    font-size: 1.2rem; /* 상대적 크기로 변경 */
+    font-size: 2rem; /* 상대적 크기로 변경 */
     width: 100%;
     font-family: 'IBM Plex Sans KR', sans-serif;
     font-weight: 500;
@@ -35,8 +35,8 @@ body, html {
     width: 98%;
     background-color: #404040;
     padding: 1.25rem; /* 상대적 크기로 변경 */
-    padding-bottom: 5rem; /* 상대적 크기로 변경 */
-    padding-top: 7.5rem; /* 상대적 크기로 변경 */
+    padding-bottom: 2.5rem; /* 상대적 크기로 변경 */
+    padding-top: 5rem; /* 상대적 크기로 변경 */
 }
 
 .button-container-add, .button-container {
