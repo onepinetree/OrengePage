@@ -26,7 +26,7 @@ body, html {
 .text-above-buttons {
     color: #ffffff;
     text-align: center;
-    font-size: 3rem; /* 상대적 크기로 변경 */
+    font-size: 1.2rem; /* 상대적 크기로 변경 */
     width: 100%;
     font-family: 'IBM Plex Sans KR', sans-serif;
     font-weight: 500;
@@ -66,10 +66,10 @@ body, html {
 
 .sharing-btn {
     display: inline-block;
-    padding: 1.875rem 4.375rem; /* 상대적 크기로 변경 */
+    padding: 1.875rem; /* 상대적 크기로 변경 */
     border-radius: 2.5rem; /* 상대적 크기로 변경 */
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 1.5625rem; /* 상대적 크기로 변경 */
+    font-size: 1rem; /* 상대적 크기로 변경 */
     font-weight: 700;
     text-decoration: none;
     cursor: pointer;
@@ -89,6 +89,7 @@ body, html {
 #kakaotalk-sharing-btn:hover, #copy-link-btn:hover {
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
+
 
 
 
