@@ -34,7 +34,7 @@ body, html {
     font-weight: 500;
     display: flex;
     justify-content: space-around;
-    width: 98%;
+    width: 90%;
     background-color: #404040;
     padding: 1.25rem; /* 상대적 크기로 변경 */
     padding-bottom: 2.5rem; /* 상대적 크기로 변경 */
@@ -44,7 +44,7 @@ body, html {
 .button-container-add, .button-container {
     display: flex;
     justify-content: space-around;
-    width: 98%;
+    width: 90%;
     background-color: #404040; /* 버튼 컨테이너 공통 배경색 */
     padding: 1.25rem; /* 상대적 크기로 변경 */
     padding-bottom: 5rem; /* 상대적 크기로 변경 */
