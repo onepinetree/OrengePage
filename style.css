@@ -13,13 +13,16 @@ body, html {
 
 .image-gallery {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* 이미지를 왼쪽에서부터 정렬 */
+    align-items: flex-start;
     width: 100%;
+    margin: 0 auto; /* 가운데 정렬을 위한 마진 조정 */
 }
 
 .image-gallery img {
-    max-width: 100%;
+    width: 100%; /* 이미지가 컨테이너 너비를 정확히 채우도록 설정 */
+    height: auto; /* 이미지의 높이를 자동으로 조정하여 비율 유지 */
     display: block;
 }
 
@@ -27,7 +30,6 @@ body, html {
     color: #ffffff;
     text-align: center;
     font-size: 1.7rem; /* 상대적 크기로 변경 */
-    width: 100%;
     font-family: 'IBM Plex Sans KR', sans-serif;
     font-weight: 500;
     display: flex;
@@ -89,6 +91,7 @@ body, html {
 #kakaotalk-sharing-btn:hover, #copy-link-btn:hover {
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
+
 
 
 
