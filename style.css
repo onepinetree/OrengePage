@@ -1,7 +1,7 @@
 body, html {
     margin: 0 auto; /* 가운데 정렬 */
     padding: 0;
-    width: 80%; /* 전체 너비의 80% */
+    width: 100%; /* 전체 너비의 80% */
     height: auto; /* 필요한 만큼 높이 자동 조정 */
     min-height: 100vh; /* 최소 높이를 화면의 100%로 설정 */
     background-color: #ffffff; /* 배경색을 검은색으로 설정 */
@@ -34,7 +34,7 @@ body, html {
     
     display: flex;
     justify-content: space-around;
-    width: 98%; /* 너비를 50%에서 100%로 조정 */
+    width: 100%; /* 너비를 50%에서 100%로 조정 */
     background-color: #404040; /* 버튼이 있는 영역의 배경색을 회색으로 변경 */
     padding: 20px; /* 배경색 영역이 더 잘 보이도록 패딩 추가 */
     padding-bottom: 80px;
@@ -44,7 +44,7 @@ body, html {
 .button-container-add {
     display: flex;
     justify-content: space-around;
-    width: 98%; /* 너비를 50%에서 100%로 조정 */
+    width: 100%; /* 너비를 50%에서 100%로 조정 */
     background-color: #404040; /* 버튼이 있는 영역의 배경색을 회색으로 변경 */
     padding: 20px; /* 배경색 영역이 더 잘 보이도록 패딩 추가 */
     padding-bottom: 80px;
@@ -54,7 +54,7 @@ body, html {
 .button-container {
     display: flex;
     justify-content: space-around;
-    width: 98%; /* 너비를 50%에서 100%로 조정 */
+    width: 100%; /* 너비를 50%에서 100%로 조정 */
     background-color: #fef6f0; /* 버튼이 있는 영역의 배경색을 회색으로 변경 */
     padding: 20px; /* 배경색 영역이 더 잘 보이도록 패딩 추가 */
     padding-bottom: 80px;
