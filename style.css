@@ -1,0 +1,104 @@
+body, html {
+    margin: 0 auto; /* 가운데 정렬 */
+    padding: 0;
+    width: 80%; /* 전체 너비의 80% */
+    height: auto; /* 필요한 만큼 높이 자동 조정 */
+    min-height: 100vh; /* 최소 높이를 화면의 100%로 설정 */
+    background-color: #ffffff; /* 배경색을 검은색으로 설정 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* 상단 정렬로 변경 */
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column; /* 열 방향 유지 */
+    align-items: center; /* 가운데 정렬 */
+    width: 100%;
+}
+
+.image-gallery img {
+    max-width: 100%; /* 이미지 최대 너비 조정 */
+    display: block;
+}
+
+.text-above-buttons {
+    color: #ffffff; /* 텍스트 색상을 하얀색으로 설정 */
+    text-align: center; /* 텍스트를 가운데로 정렬 */
+    font-size: 50px; /* 글자 크기 설정 */
+    width: 100%; /* 너비를 부모 요소와 동일하게 설정 */
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 500;
+
+    
+    display: flex;
+    justify-content: space-around;
+    width: 98%; /* 너비를 50%에서 100%로 조정 */
+    background-color: #404040; /* 버튼이 있는 영역의 배경색을 회색으로 변경 */
+    padding: 20px; /* 배경색 영역이 더 잘 보이도록 패딩 추가 */
+    padding-bottom: 80px;
+    padding-top: 120px;
+}
+
+.button-container-add {
+    display: flex;
+    justify-content: space-around;
+    width: 98%; /* 너비를 50%에서 100%로 조정 */
+    background-color: #404040; /* 버튼이 있는 영역의 배경색을 회색으로 변경 */
+    padding: 20px; /* 배경색 영역이 더 잘 보이도록 패딩 추가 */
+    padding-bottom: 80px;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 98%; /* 너비를 50%에서 100%로 조정 */
+    background-color: #fef6f0; /* 버튼이 있는 영역의 배경색을 회색으로 변경 */
+    padding: 20px; /* 배경색 영역이 더 잘 보이도록 패딩 추가 */
+    padding-bottom: 80px;
+}
+
+#long-orange-btn {
+    background-color: #FFA500; /* 오렌지색 배경 */
+    color: #ffffff; /* 글자색을 흰색으로 */
+    width: 90%; /* 너비를 조정하여 길이 늘림 */
+    margin-top: 20px; /* 위쪽 여백 추가 */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* 그림자 스타일 적용 */
+    padding: 20px 0; /* 상하 패딩 추가하여 버튼 높이 조정 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    display: block; /* 블록 레벨 요소로 변경하여 너비 100% 적용 가능하게 함 */
+    font-size: 30px;
+}
+
+
+.sharing-btn {
+    display: inline-block;
+    padding: 30px 70px;
+    border-radius: 40px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+#kakaotalk-sharing-btn {
+    background-color: #FEE500;
+    color: #3C1E1E;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+#copy-link-btn {
+    background-color: #808080; /* 회색 */
+    color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+#kakaotalk-sharing-btn:hover, #copy-link-btn:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+
