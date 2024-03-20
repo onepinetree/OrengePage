@@ -29,12 +29,12 @@ body, html {
 .text-above-buttons {
     color: #ffffff;
     text-align: center;
-    font-size: 1.7rem; /* 상대적 크기로 변경 */
+    font-size: 1.2rem; /* 상대적 크기로 변경 */
     font-family: 'IBM Plex Sans KR', sans-serif;
     font-weight: 500;
     display: flex;
     justify-content: space-around;
-    width: 90%;
+    width: 98%;
     background-color: #404040;
     padding: 1.25rem; /* 상대적 크기로 변경 */
     padding-bottom: 2.5rem; /* 상대적 크기로 변경 */
@@ -44,7 +44,7 @@ body, html {
 .button-container-add, .button-container {
     display: flex;
     justify-content: space-around;
-    width: 90%;
+    width: 98%;
     background-color: #404040; /* 버튼 컨테이너 공통 배경색 */
     padding: 1.25rem; /* 상대적 크기로 변경 */
     padding-bottom: 5rem; /* 상대적 크기로 변경 */
@@ -68,10 +68,10 @@ body, html {
 
 .sharing-btn {
     display: inline-block;
-    padding: 1.875rem; /* 상대적 크기로 변경 */
-    border-radius: 2.5rem; /* 상대적 크기로 변경 */
+    padding: 1.5rem; /* 상대적 크기로 변경 */
+    border-radius: 2rem; /* 상대적 크기로 변경 */
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 1rem; /* 상대적 크기로 변경 */
+    font-size: 0.9rem; /* 상대적 크기로 변경 */
     font-weight: 700;
     text-decoration: none;
     cursor: pointer;
@@ -91,8 +91,3 @@ body, html {
 #kakaotalk-sharing-btn:hover, #copy-link-btn:hover {
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
-
-
-
-
-
