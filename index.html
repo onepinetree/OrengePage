@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta property="og:image" content="https://i.ibb.co/7pSrScv/1.jpg" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>오랜지: 오랜 기간동안 지키고 싶은 목표</title>
     <link rel="icon" href="assets/favicon.png" type="image/png">
@@ -16,24 +14,10 @@
 <body>
     <div class="image-gallery">
         <img src="assets/1.jpeg" alt="Sample Image 1">
-    </div>
-    <div class="button-container">
-        <a id="long-orange-btn" class="sharing-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSc9x0VWmUr4ni95BmchcD-Rl8jIIs_g_BtJLiOsbKQpKuEzGQ/viewform">조각 신청하기</a>
-    </div>
-    <div class="image-gallery">
         <img src="assets/2.jpeg" alt="Sample Image 2">
         <img src="assets/3.jpeg" alt="Sample Image 3">
         <img src="assets/4.jpeg" alt="Sample Image 4">
         <img src="assets/5.jpeg" alt="Sample Image 5">
-    </div>
-    <div class="text-above-buttons">
-        조각을 함께할 친구에게 공유해요
-    </div>
-    <div class="button-container-add">
-        <a id="copy-link-btn" class="sharing-btn" href="javascript:;" onclick="copyToClipboard('https:\/\/orengepage.onrender.com')">링크 복사하기</a>
-        <a id="kakaotalk-sharing-btn" class="sharing-btn" href="javascript:;">카카오톡 공유하기</a>
-    </div>
-    <div class="image-gallery">
         <img src="assets/6.jpeg" alt="Sample Image 6">
         <img src="assets/7.jpeg" alt="Sample Image 7">
         <img src="assets/8.jpeg" alt="Sample Image 8">
@@ -42,42 +26,22 @@
     </div>
 
     <div class="button-container">
-        <a id="long-orange-btn" class="sharing-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSc9x0VWmUr4ni95BmchcD-Rl8jIIs_g_BtJLiOsbKQpKuEzGQ/viewform">조각 신청하기</a>
+        <a id="long-orange-btn" class="sharing-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSf3GxrP8KKAhOw9WfPIyRIzUOx0VTTX_MHDSsBX3ZqHfVdjig/viewform">조각 신청하기</a>
     </div>
+
+
+    <a href="https://desired-link.com" class="cta-button">CTA 버튼</a> 
+
     
-    <div class="text-above-buttons">
-        조각을 함께할 친구에게 공유해요
-    </div>
+
     <div class="button-container-add">
         <a id="copy-link-btn" class="sharing-btn" href="javascript:;" onclick="copyToClipboard('https:\/\/orengepage.onrender.com')">링크 복사하기</a>
-        <a id="kakaotalk-sharing-btn" class="sharing-btn" href="javascript:;">카카오톡 공유하기</a>
+        <a id="kakaotalk-sharing-btn" class="sharing-btn" href="javascript:;">KakaoTalk 공유하기</a>
     </div>
 
-    <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.0/kakao.min.js"
-        integrity="sha384-l+xbElFSnPZ2rOaPrU//2FF5B4LB8FiX5q4fXYTlfcG4PGpMkE1vcL7kNXI6Cci0" crossorigin="anonymous"></script>
-    <script>
-        Kakao.init('7476b316e9eedddc848473346eab3335'); // 사용하려는 앱의 JavaScript 키 입력
-        Kakao.Share.createDefaultButton({
-            container: '#kakaotalk-sharing-btn',
-            objectType: 'feed',
-            content: {
-                title: '오랜지와 목표 조각하기',
-                description: "친구와 함께하는,단계적 목표 달성",
-                imageUrl: 'https://i.ibb.co/7pSrScv/1.jpg',
-                link: {
-                    mobileWebUrl: 'https:\/\/orengepage.onrender.com',
-                    webUrl: 'https:\/\/orengepage.onrender.com',
-                },
-            },
-        });
+ 
+</body>
+</html>
 
-        function copyToClipboard(text) {
-            navigator.clipboard.writeText(text).then(function() {
-                alert('링크가 클립보드에 복사되었습니다.');
-            }, function(err) {
-                console.error('클립보드 복사에 실패했습니다: ', err);
-            });
-        }
-    </script>
 </body>
 </html>
